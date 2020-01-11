@@ -11,10 +11,10 @@ constants, structures, enumerations and functions.
 ### Usage
 
 * Add the source folder `rlctbg` to your project folder;
-* Drop in this folder the `raylib.h` you want to generate the bind for, and
-  the binaries for the corresponding python architecture (32bit or 64bit) and platform
-  (Windows, Mac or Linux) to be loaded. The loader will select the binary acording
-  to the platform, but the architecture must match the intepreter's.
+* Drop in this folder the binaries for the corresponding python architecture
+  (32bit or 64bit) and platform (Windows, Mac or Linux) to be loaded. The
+  loader will select the binary acording to the platform, but the architecture
+  must match the intepreter's.
 * In the initialization of your main module, import the `rlctbg` module:
 
 ```python
